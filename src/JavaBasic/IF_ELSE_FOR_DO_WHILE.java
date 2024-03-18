@@ -74,8 +74,8 @@ public class IF_ELSE_FOR_DO_WHILE {
         b = scanner.nextInt();
 
         // Vòng lặp For
-        for (i = a ;a<=b;a++){
-            System.out.print(a + " ");
+        for (i = a ;i<=b;i++){
+            System.out.print(i + " ");
         }
         System.out.println();
     }
