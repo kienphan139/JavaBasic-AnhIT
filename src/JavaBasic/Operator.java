@@ -43,6 +43,21 @@ public class Operator {
         System.out.println("Giá trị của b 'sau' khi hoán đổi: " + b);
     }
 
+    public static void Bai3() {
+        int a, b;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Nhập giá trị của a: ");
+        a = scanner.nextInt();
+
+        System.out.println("Nhập giá trị của b: ");
+        b = scanner.nextInt();
+
+        // Khởi tạo hàm Boolean có biến là result
+        Boolean result = a > b;
+        System.out.println(result);
+    }
+
+
     public static void main(String[] args) {
         int choice;
         do {
@@ -65,6 +80,10 @@ public class Operator {
                     Bai2();
                     break;
 
+                }
+                case 3: {
+                    Bai3();
+                    break;
                 }
                 default:
                     System.out.println("Không có bài tập nào phù hợp với giá trị của bạn, vui lòng nhập lại!!!");
